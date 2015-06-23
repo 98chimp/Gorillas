@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD9CC921B3920F40093C30C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CC911B3920F40093C30C /* AppDelegate.swift */; };
+		EBD9CC941B3920F40093C30C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC931B3920F40093C30C /* GameScene.sks */; };
+		EBD9CC961B3920F40093C30C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CC951B3920F40093C30C /* GameScene.swift */; };
+		EBD9CC981B3920F40093C30C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CC971B3920F40093C30C /* GameViewController.swift */; };
+		EBD9CC9B1B3920F40093C30C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC991B3920F40093C30C /* Main.storyboard */; };
+		EBD9CC9D1B3920F40093C30C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC9C1B3920F40093C30C /* Images.xcassets */; };
+		EBD9CCA01B3920F40093C30C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC9E1B3920F40093C30C /* LaunchScreen.xib */; };
+		EBD9CCAC1B3920F40093C30C /* GorillasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CCAB1B3920F40093C30C /* GorillasTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD9CCA61B3920F40093C30C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD9CC841B3920F40093C30C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD9CC8B1B3920F40093C30C;
+			remoteInfo = Gorillas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD9CC8C1B3920F40093C30C /* Gorillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gorillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD9CC901B3920F40093C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD9CC911B3920F40093C30C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD9CC931B3920F40093C30C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EBD9CC951B3920F40093C30C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EBD9CC971B3920F40093C30C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EBD9CC9A1B3920F40093C30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD9CC9C1B3920F40093C30C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBD9CC9F1B3920F40093C30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBD9CCA51B3920F40093C30C /* GorillasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GorillasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD9CCAA1B3920F40093C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD9CCAB1B3920F40093C30C /* GorillasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorillasTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD9CC891B3920F40093C30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD9CCA21B3920F40093C30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD9CC831B3920F40093C30C = {
+			isa = PBXGroup;
+			children = (
+				EBD9CC8E1B3920F40093C30C /* Gorillas */,
+				EBD9CCA81B3920F40093C30C /* GorillasTests */,
+				EBD9CC8D1B3920F40093C30C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD9CC8D1B3920F40093C30C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CC8C1B3920F40093C30C /* Gorillas.app */,
+				EBD9CCA51B3920F40093C30C /* GorillasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD9CC8E1B3920F40093C30C /* Gorillas */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CC911B3920F40093C30C /* AppDelegate.swift */,
+				EBD9CC931B3920F40093C30C /* GameScene.sks */,
+				EBD9CC951B3920F40093C30C /* GameScene.swift */,
+				EBD9CC971B3920F40093C30C /* GameViewController.swift */,
+				EBD9CC991B3920F40093C30C /* Main.storyboard */,
+				EBD9CC9C1B3920F40093C30C /* Images.xcassets */,
+				EBD9CC9E1B3920F40093C30C /* LaunchScreen.xib */,
+				EBD9CC8F1B3920F40093C30C /* Supporting Files */,
+			);
+			path = Gorillas;
+			sourceTree = "<group>";
+		};
+		EBD9CC8F1B3920F40093C30C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CC901B3920F40093C30C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD9CCA81B3920F40093C30C /* GorillasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CCAB1B3920F40093C30C /* GorillasTests.swift */,
+				EBD9CCA91B3920F40093C30C /* Supporting Files */,
+			);
+			path = GorillasTests;
+			sourceTree = "<group>";
+		};
+		EBD9CCA91B3920F40093C30C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CCAA1B3920F40093C30C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD9CC8B1B3920F40093C30C /* Gorillas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD9CCAF1B3920F40093C30C /* Build configuration list for PBXNativeTarget "Gorillas" */;
+			buildPhases = (
+				EBD9CC881B3920F40093C30C /* Sources */,
+				EBD9CC891B3920F40093C30C /* Frameworks */,
+				EBD9CC8A1B3920F40093C30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gorillas;
+			productName = Gorillas;
+			productReference = EBD9CC8C1B3920F40093C30C /* Gorillas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD9CCA41B3920F40093C30C /* GorillasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD9CCB21B3920F40093C30C /* Build configuration list for PBXNativeTarget "GorillasTests" */;
+			buildPhases = (
+				EBD9CCA11B3920F40093C30C /* Sources */,
+				EBD9CCA21B3920F40093C30C /* Frameworks */,
+				EBD9CCA31B3920F40093C30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD9CCA71B3920F40093C30C /* PBXTargetDependency */,
+			);
+			name = GorillasTests;
+			productName = GorillasTests;
+			productReference = EBD9CCA51B3920F40093C30C /* GorillasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD9CC841B3920F40093C30C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "98%Chimp";
+				TargetAttributes = {
+					EBD9CC8B1B3920F40093C30C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EBD9CCA41B3920F40093C30C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EBD9CC8B1B3920F40093C30C;
+					};
+				};
+			};
+			buildConfigurationList = EBD9CC871B3920F40093C30C /* Build configuration list for PBXProject "Gorillas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD9CC831B3920F40093C30C;
+			productRefGroup = EBD9CC8D1B3920F40093C30C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD9CC8B1B3920F40093C30C /* Gorillas */,
+				EBD9CCA41B3920F40093C30C /* GorillasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD9CC8A1B3920F40093C30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CCA01B3920F40093C30C /* LaunchScreen.xib in Resources */,
+				EBD9CC9D1B3920F40093C30C /* Images.xcassets in Resources */,
+				EBD9CC941B3920F40093C30C /* GameScene.sks in Resources */,
+				EBD9CC9B1B3920F40093C30C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD9CCA31B3920F40093C30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD9CC881B3920F40093C30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CC961B3920F40093C30C /* GameScene.swift in Sources */,
+				EBD9CC981B3920F40093C30C /* GameViewController.swift in Sources */,
+				EBD9CC921B3920F40093C30C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD9CCA11B3920F40093C30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CCAC1B3920F40093C30C /* GorillasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD9CCA71B3920F40093C30C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD9CC8B1B3920F40093C30C /* Gorillas */;
+			targetProxy = EBD9CCA61B3920F40093C30C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD9CC991B3920F40093C30C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD9CC9A1B3920F40093C30C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD9CC9E1B3920F40093C30C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD9CC9F1B3920F40093C30C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD9CCAD1B3920F40093C30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EBD9CCAE1B3920F40093C30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD9CCB01B3920F40093C30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gorillas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD9CCB11B3920F40093C30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gorillas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD9CCB31B3920F40093C30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GorillasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gorillas.app/Gorillas";
+			};
+			name = Debug;
+		};
+		EBD9CCB41B3920F40093C30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GorillasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gorillas.app/Gorillas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD9CC871B3920F40093C30C /* Build configuration list for PBXProject "Gorillas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CCAD1B3920F40093C30C /* Debug */,
+				EBD9CCAE1B3920F40093C30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD9CCAF1B3920F40093C30C /* Build configuration list for PBXNativeTarget "Gorillas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CCB01B3920F40093C30C /* Debug */,
+				EBD9CCB11B3920F40093C30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD9CCB21B3920F40093C30C /* Build configuration list for PBXNativeTarget "GorillasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CCB31B3920F40093C30C /* Debug */,
+				EBD9CCB41B3920F40093C30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD9CC841B3920F40093C30C /* Project object */;
+}
