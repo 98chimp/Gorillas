@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1781991B3A749F0008BA97 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1781981B3A749F0008BA97 /* Helper.swift */; };
+		EB1781AE1B3A85B40008BA97 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EB1781AD1B3A85B40008BA97 /* assets.atlas */; };
+		EB1781B51B3A97800008BA97 /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB1781B31B3A97800008BA97 /* hitBuilding.sks */; };
+		EB1781B61B3A97800008BA97 /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB1781B41B3A97800008BA97 /* hitPlayer.sks */; };
 		EBD9CC921B3920F40093C30C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CC911B3920F40093C30C /* AppDelegate.swift */; };
 		EBD9CC941B3920F40093C30C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC931B3920F40093C30C /* GameScene.sks */; };
 		EBD9CC961B3920F40093C30C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CC951B3920F40093C30C /* GameScene.swift */; };
@@ -15,6 +19,7 @@
 		EBD9CC9D1B3920F40093C30C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC9C1B3920F40093C30C /* Images.xcassets */; };
 		EBD9CCA01B3920F40093C30C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CC9E1B3920F40093C30C /* LaunchScreen.xib */; };
 		EBD9CCAC1B3920F40093C30C /* GorillasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CCAB1B3920F40093C30C /* GorillasTests.swift */; };
+		EBD9CCB61B3922990093C30C /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CCB51B3922990093C30C /* BuildingNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB1781981B3A749F0008BA97 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EB1781AD1B3A85B40008BA97 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		EB1781B31B3A97800008BA97 /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = hitBuilding.sks; path = Gorillas/assets.atlas/hitBuilding.sks; sourceTree = "<group>"; };
+		EB1781B41B3A97800008BA97 /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = hitPlayer.sks; path = Gorillas/assets.atlas/hitPlayer.sks; sourceTree = "<group>"; };
 		EBD9CC8C1B3920F40093C30C /* Gorillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gorillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9CC901B3920F40093C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD9CC911B3920F40093C30C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,7 @@
 		EBD9CCA51B3920F40093C30C /* GorillasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GorillasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9CCAA1B3920F40093C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD9CCAB1B3920F40093C30C /* GorillasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorillasTests.swift; sourceTree = "<group>"; };
+		EBD9CCB51B3922990093C30C /* BuildingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,8 @@
 		EBD9CC831B3920F40093C30C = {
 			isa = PBXGroup;
 			children = (
+				EB1781B31B3A97800008BA97 /* hitBuilding.sks */,
+				EB1781B41B3A97800008BA97 /* hitPlayer.sks */,
 				EBD9CC8E1B3920F40093C30C /* Gorillas */,
 				EBD9CCA81B3920F40093C30C /* GorillasTests */,
 				EBD9CC8D1B3920F40093C30C /* Products */,
@@ -84,9 +96,12 @@
 				EBD9CC911B3920F40093C30C /* AppDelegate.swift */,
 				EBD9CC931B3920F40093C30C /* GameScene.sks */,
 				EBD9CC951B3920F40093C30C /* GameScene.swift */,
+				EBD9CCB51B3922990093C30C /* BuildingNode.swift */,
 				EBD9CC971B3920F40093C30C /* GameViewController.swift */,
+				EB1781981B3A749F0008BA97 /* Helper.swift */,
 				EBD9CC991B3920F40093C30C /* Main.storyboard */,
 				EBD9CC9C1B3920F40093C30C /* Images.xcassets */,
+				EB1781AD1B3A85B40008BA97 /* assets.atlas */,
 				EBD9CC9E1B3920F40093C30C /* LaunchScreen.xib */,
 				EBD9CC8F1B3920F40093C30C /* Supporting Files */,
 			);
@@ -198,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1781B51B3A97800008BA97 /* hitBuilding.sks in Resources */,
+				EB1781B61B3A97800008BA97 /* hitPlayer.sks in Resources */,
 				EBD9CCA01B3920F40093C30C /* LaunchScreen.xib in Resources */,
 				EBD9CC9D1B3920F40093C30C /* Images.xcassets in Resources */,
 				EBD9CC941B3920F40093C30C /* GameScene.sks in Resources */,
+				EB1781AE1B3A85B40008BA97 /* assets.atlas in Resources */,
 				EBD9CC9B1B3920F40093C30C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +239,9 @@
 			files = (
 				EBD9CC961B3920F40093C30C /* GameScene.swift in Sources */,
 				EBD9CC981B3920F40093C30C /* GameViewController.swift in Sources */,
+				EB1781991B3A749F0008BA97 /* Helper.swift in Sources */,
 				EBD9CC921B3920F40093C30C /* AppDelegate.swift in Sources */,
+				EBD9CCB61B3922990093C30C /* BuildingNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +439,7 @@
 				EBD9CCB11B3920F40093C30C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBD9CCB21B3920F40093C30C /* Build configuration list for PBXNativeTarget "GorillasTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +448,7 @@
 				EBD9CCB41B3920F40093C30C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
